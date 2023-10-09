@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Nunito:wght@200&family=Pixelify+Sans&display=swap');
+
+body {
+    background-image: url(../img/back.webp);
+    color: white;
+}
+div{
+    background-color: black;
+    opacity: 95%;
+}
+header {
+    background-color: black;
+    color: #ff2206;
+    font-family: 'Chakra Petch', sans-serif;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+header h1 {
+    display: flex;
+    font-size: xxx-large;
+}
+
+header h2 {
+    color: #c3c117;
+    border-left: 2px solid;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    padding: 10px;
+}
+abbr{
+    color: #c3b80a;
+}
+a {
+    color: #c3b80a;
+    text-decoration: none;
+}
+div#zen-supporting {
+    font-size: medium;
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+}
+div#zen-supporting div {
+        font-size: larger;
+        width: auto;
+        line-height: 35px;
+}
+div#zen-supporting div p {
+    padding: 10px;
+}
+div#zen-explanation{
+    background-color: #3398189c
+}
+div#zen-participation {
+    background-color: #ac5c109c
+}
+div#zen-benefits {
+    background: #ffb25b96;
+}
+div#zen-requirements {
+    background-color: #b81a00a1;
+}
+footer{
+    display: none;
+}
+div {
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 10px;
+    margin: 10px 20px;
+    font-family: 'Chakra Petch';
+    font-size: x-large;
+}
+div .wrapper {
+    font-size: medium;
+    display: flex;
+    margin: 0 auto;
+    color: white;
+    justify-content: center;
+}
+div .wrapper abbr {
+    color: white;
+}
